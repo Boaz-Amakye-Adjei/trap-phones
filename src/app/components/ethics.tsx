@@ -67,24 +67,3 @@ export function Ethics() {
     </motion.section>
   );
 }
-
-type EthicCardProps = {
-  title: string;
-  src: string;
-  description: string;
-};
-
-function EthicCard({ title, src, description }: EthicCardProps) {
-  return (
-    <div className="group flex justify-center items-center flex-col gap-2 cursor-pointer mb-6 md:mb-0">
-      <img
-        src={src}
-        width={50}
-        height={50}
-        className="group-hover:rotate-y-180 transition-transform duration-700 ease-in-out"
-      />
-      <h3 className="font-bold text-lg">{title}</h3>
-      <p className="text-center text-[#aeaeae]">{description}</p>
-    </div>
-  );
-}
