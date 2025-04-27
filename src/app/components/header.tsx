@@ -2,11 +2,11 @@ export default function Header() {
   return (
     <header className="shadow-2xl p-4 px-5 md:px-10 flex justify-between items-center font-semibold sticky top-0 z-50 bg-white/70 backdrop-blur-2xl">
       <h1 className="text-2xl flex">
-        <img
+        {/* <img
           src="https://img.icons8.com/?size=100&id=Mv7K3xjMvfuS&format=png&color=000000"
           width={35}
           height={6}
-        />
+        /> */}
         <span className="font-bold">Trap</span>{" "}
         <span className="text-[#aeaeae] font-thin ml-1">Phones</span>
       </h1>
