@@ -57,7 +57,7 @@ export function About() {
               delay: 0.3,
               ease: "easeInOut",
             }}
-            className="flex gap-2 mt-8"
+            className="flex gap-2 mt-14"
           >
             <span className="size-14 block md:size-16 rounded-full bg-[grey]/80"></span>
             <div className="flex flex-col gap-1">

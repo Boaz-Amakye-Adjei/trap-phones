@@ -50,7 +50,7 @@ export default function Sales() {
         transition={{ duration: 0.5, ease: "easeInOut" }}
         className="text-center font-bold tracking-wide text-4xl px-5"
       >
-        <span className="text-blue-600">HOT</span> Deals
+        <span className="text-blue-600">Hot</span> Deals
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, y: 100 }}

@@ -54,13 +54,13 @@ export default function Hero() {
 
         <div className="pt-6 md:pt-12 flex gap-2 flex-col md:flex-row">
           <CtaButton
-            title="Learn More"
+            title="Purchase Now"
             className="bg-blue-500 text-white "
             delay={0.6}
           />
 
           <CtaButton
-            title="Learn More"
+            title="Hot Deals!!!"
             className="text-black  border-black border border-solid"
             delay={0.7}
           />
