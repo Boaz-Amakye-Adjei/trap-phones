@@ -14,7 +14,7 @@ export default function Home() {
         <About />
         <CustomerReviews />
 
-        <section className="px-10 my-14">
+        <section className="px-5 md:px-10 my-14">
           <div className="w-full h-[400px] bg-black/20 rounded-[30px]"></div>
         </section>
       </main>

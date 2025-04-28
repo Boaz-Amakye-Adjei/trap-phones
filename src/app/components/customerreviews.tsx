@@ -27,16 +27,16 @@ function ReviewCard() {
     <motion.div
       whileHover={{ scale: 0.97 }}
       variants={{
-        hidden: { opacity: 0, y: 50 },
+        hidden: { opacity: 0, y: 30 },
         show: {
           opacity: 1,
           y: 0,
           transition: { duration: 0.6, ease: "easeOut" },
         },
       }}
-      className="shadow-xl w-[400px] h-[250px] px-7"
+      className="shadow-xl w-[400px] h-[250px] px-7 bg-[#f2f2f2]"
     >
-      <div className="bg-white flex py-5">
+      <div className=" flex py-5">
         <div className="w-[50px]"></div>
         <div>
           <ul className="flex">

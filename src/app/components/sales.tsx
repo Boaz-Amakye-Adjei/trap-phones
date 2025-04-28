@@ -59,8 +59,8 @@ export default function Sales() {
         viewport={{ once: true, amount: 0.3 }}
         className="px-5 text-center py-10 max-w-[520px] mx-auto font-semibold text-[#aeaeae]"
       >
-        A smartwatch is a wearable computer in the form of a watch; modern
-        smartwatches provide a local touchscreen interface for daily use.
+        Get the hottest smartphone deals at unbeatable prices. Limited stock —
+        grab yours now before theyre gone!
       </motion.p>
 
       <ScrollSection>
@@ -106,7 +106,7 @@ function Card({ name, image, initialPrice, price }: CardProps) {
   return (
     <motion.div
       variants={{
-        hidden: { opacity: 0, y: 50 },
+        hidden: { opacity: 0, y: 30 },
         show: {
           opacity: 1,
           y: 0,

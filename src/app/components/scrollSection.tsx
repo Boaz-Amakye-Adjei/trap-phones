@@ -7,11 +7,11 @@ export default function ScrollSection({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex overflow-auto gap-2 md:gap-0 mt-10 my-10">
+    <div className="flex overflow-y-hidden overflow-x-scroll gap-2 md:gap-0 mt-10 my-10">
       <motion.div
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0 }}
         variants={{
           hidden: {},
           show: {
